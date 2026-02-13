@@ -67,7 +67,7 @@ async function cadastrarNovoUsuario(e: FormEvent<HTMLFormElement>){
     <>
     <div className="grid grid-cols-1 lg:grid-cols-2 h-screen place-items-center font-bold">
       <div
-        className= "bg-[url('https://i.imgur.com/ZZFAmzo.jpg')] lg:block hidden bg-no-repeat bg-cover bg-center"
+        className= "bg-[url('"
       
       ></div>
       <form className="flex justify-center items-center flex-col w-2/3 gap-3"
