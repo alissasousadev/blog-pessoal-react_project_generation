@@ -1,5 +1,4 @@
 import { useContext, useEffect, useState, type ChangeEvent } from "react";
-import type { FormEvent } from 'react'
 import { Link, useNavigate } from "react-router-dom";
 import { ClipLoader } from "react-spinners";
 import { AuthContext } from "../../contexts/AuthContext";
@@ -28,7 +27,7 @@ function Login() {
         })
     }
 
-    function login(e:FormEvent<HTMLFormElement>) {
+    function login(e:ChangeEvent<HTMLFormElement>) {
         e.preventDefault()
         handleLogin(usuarioLogin)
     }
